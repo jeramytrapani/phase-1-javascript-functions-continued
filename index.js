@@ -6,9 +6,12 @@ function mondayWork(toDo="go to the office") {
     return `This Monday, I will ${toDo}.`
 }
 
-function wrapAdjective (adjective) {
-    if (adjective = '||') {
-        return 'You are a dedicated programmer!'
+function wrapAdjective (highlight="*") {
+    return function () {
+        return 
     }
+
+    //let highlight = 'a hard worker'
+     //return `You are a ${highlight}!`
 }
     
