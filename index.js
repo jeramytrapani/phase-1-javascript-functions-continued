@@ -7,8 +7,8 @@ function mondayWork(toDo="go to the office") {
 }
 
 function wrapAdjective (highlight="*") {
-    return function () {
-        return 
+    return function (adjective="persistent") {
+        return `You are ${highlight}${adjective}${highlight}!`
     }
 
     //let highlight = 'a hard worker'
